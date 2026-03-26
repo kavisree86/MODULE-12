@@ -5,22 +5,41 @@
 ## Date:
 
 ## Aim:
-
-
+To write a C++ program to get the elements of an array from the user and sort the array using Insertion Sort.
 ## Algorithm:
+1. Start the program.
+2. Read the number of elements `n`.
+3. Read `n` elements into the array.
+4. Perform insertion sort:
+
+   * For each element from index 1 to n−1:
+
+     * Store the current element as `key`.
+     * Compare `key` with previous elements and shift them if greater.
+     * Insert `key` in its correct sorted position.
+5. Print the sorted array.
+6. Stop the program.
 
 
 
 
 
 ## Program:
-
+```
+void input(int arr[])
+{
+    for(int i=0;i<5;i++)
+    cin>>arr[i];
+    
+}
+```
 
 
 ## Output:
+<img width="645" height="342" alt="565672982-2eb53336-bc42-4a67-be83-fd431972e68e" src="https://github.com/user-attachments/assets/8e3a3faa-cb3a-4289-97b6-437203c6b815" />
 
 
 
  ## Result:
-
+The program successfully accepts array elements from the user and displays the array sorted using insertion sort.
 
