@@ -5,22 +5,39 @@
 ## Date:
 
 ## Aim:
+To write the printArray module of Merge Sort in C++ to display the elements of an array.
+
 
 
 ## Algorithm:
-
+1. Start the function.
+2. Traverse through the array from index 0 to n–1.
+3. Print each element with a space in between.
+4. End the function.
 
 
 
 
 ## Program:
-
-
+```
+void printArray(int array[], int size)
+{
+    for(int i=0;i<size;i++)
+    {
+        cout<<array[i]<<" ";
+    }
+    cout<<endl;
+    
+}
+```
 
 ## Output:
+<img width="652" height="203" alt="565675485-9aeffc00-0498-404c-81e7-e9f2ab1f45bf" src="https://github.com/user-attachments/assets/d4382df8-ae62-435c-8693-50c3632c3d27" />
 
 
 
 ## Result:
+The printArray module successfully prints all elements of the array used in Merge Sort.
+
 
 
