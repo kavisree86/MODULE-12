@@ -4,22 +4,43 @@
 
 ## Date:
 ## Aim:
+To write the Greater-Than module of Binary Search in C++ that checks whether the middle element of the array is greater than the key element.
+
 
 
 ## Algorithm:
+1. Start the function.
+2. Receive the middle element `arr[mid]` and the search key.
+3. Compare:
 
+   * If `arr[mid] > key`, return `true`.
+   * Otherwise return `false`.
+4. End the function.
 
 
 
 
 ## Program:
-
+```
+int GreaterThan(int a[], int mid, int search)
+{
+    if (a[mid]>search)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+    
+}
+```
 
 
 ## Output:
+<img width="618" height="249" alt="565676390-471fe597-a043-47c8-bf7c-4ee892f6a029" src="https://github.com/user-attachments/assets/ed0e97ea-6ab1-487b-b807-dc255eb254ff" />
 
 
 
 ## Result:
-
-
+The greaterThan module correctly checks whether the mid element of the array is greater than the key and helps guide the binary search process.
